@@ -1,0 +1,161 @@
+
+header{
+    display: flex;
+    background-color:#4281C8;
+    text-align: center;
+}
+
+h1{    
+    color: white;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 20%;
+    text-align: center;
+    }
+
+.header_img{
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+p{
+    color: black;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.setsumei{
+    background-color: #BFDAFE;
+}
+
+.aite{
+    color: black;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style: none;
+    color: black;
+    font-family: "Zen Maru Gothic", serif;
+    margin-left: 10%;
+    margin-right: 10%;    
+}    
+
+.aite_img {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.aite_img img {
+    width: 150px; /* 画像の幅を指定 */
+    height: auto; /* 高さは自動調整（アスペクト比を保持） */
+    object-fit: cover; /* 必要に応じて画像の表示方法を調整 */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;    
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: black;
+    font-family: "Zen Maru Gothic", serif; 
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: black;
+    font-family: "Zen Maru Gothic", serif; 
+}
+
+.name,textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* 要素間の余白を設定 */
+}
+
+.soshin{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+button#save {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#downloadBtn {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;    
+
+    padding: 10px 20px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    position:relative;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+textarea{
+  margin: 10%;
+  width: 75%;
+  height: 100px;
+  font-size:50%;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  border: double 5px gray;
+  padding: 0;
+}
+
