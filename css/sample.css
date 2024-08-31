@@ -11,7 +11,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    margin-left: 20%;
+    margin-left: 25%;
     text-align: center;
     }
 
@@ -22,26 +22,39 @@ h1{
     margin-left: 30px;
 }
 
-p{
-    color: black;
+h2{
+    color: #4281C8;
     font-family: "Zen Maru Gothic", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     text-align: center;
+}
+
+h3{
+    color: #4281C8;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .setsumei{
     background-color: #BFDAFE;
+    padding: 5px;
 }
 
 .aite{
-    color: black;
+    color: white;
     font-family: "Zen Maru Gothic", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffb201;
 }
 
 ul{
@@ -60,7 +73,8 @@ ul{
     align-items: center;
     justify-content:space-between;
     margin-left: 10%;
-    margin-right: 10%;    
+    margin-right: 10%;
+    margin-bottom: 20px;    
 }
 
 .aite_img img {
@@ -69,8 +83,12 @@ ul{
     object-fit: cover; /* 必要に応じて画像の表示方法を調整 */
     display: flex;
     align-items: center;
-    justify-content:space-between;    
+    justify-content:space-between;
 }
+
+.aite_img img:hover{
+    transform:scale(1.05);
+  }
 
 .button-container {
     display: flex;
@@ -125,7 +143,6 @@ button#downloadBtn {
     font-family: "Zen Maru Gothic", serif;
     font-weight: 400;
     font-style: normal;    
-
     padding: 10px 20px;
     font-size: 16px;
     align-items: center;
@@ -155,7 +172,11 @@ textarea{
   font-size:50%;
   padding: 0.5em 1em;
   margin: 0.5em 0;
-  border: double 5px gray;
+  border: 1px solid #1b2538;
+  border-radius: 4px;
   padding: 0;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal; 
 }
 
